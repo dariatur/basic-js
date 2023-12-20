@@ -17,7 +17,7 @@ class DepthCalculator {
     let count = 1;
     let max = 1;
     for (let i = 0; i < arr.length; i++) {
-        count =1;
+        count = 1;
       if(arr[i] instanceof Array) {
         count+=this.calculateDepth(arr[i]);
         if(max<count){
